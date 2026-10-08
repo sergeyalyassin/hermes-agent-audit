@@ -1,0 +1,6 @@
+minimax:
+  provider: minimax
+  models:
+    - name: "minimax/chat:free"
+      key_env: MINIMAX_API_KEY
+  fallback: true
